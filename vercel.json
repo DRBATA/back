@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "api/**/*.py",
+      "src": "api/easyGPapp.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "api/$1"
+      "dest": "api/easyGPapp.py"
     }
   ]
 }
