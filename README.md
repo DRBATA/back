@@ -5,7 +5,7 @@ This repository contains the backend code for a project intended to be deployed 
 ## Project Structure
 
 - `api/`: Contains the main application logic
-  - `response_bot.py`: Handles bot responses
+  - `easyGPapp.py`: Handles bot responses
 - `requirements.txt`: Lists the Python dependencies for the project
 - `vercel.json`: Configuration file for Vercel deployment
 
